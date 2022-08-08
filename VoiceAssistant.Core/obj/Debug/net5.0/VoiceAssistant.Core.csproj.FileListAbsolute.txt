@@ -1,0 +1,12 @@
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\bin\Debug\net5.0\VoiceAssistant.Core.deps.json
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\bin\Debug\net5.0\VoiceAssistant.Core.dll
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\bin\Debug\net5.0\ref\VoiceAssistant.Core.dll
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\bin\Debug\net5.0\VoiceAssistant.Core.pdb
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\VoiceAssistant.Core.csproj.AssemblyReference.cache
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\VoiceAssistant.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\VoiceAssistant.Core.AssemblyInfoInputs.cache
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\VoiceAssistant.Core.AssemblyInfo.cs
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\VoiceAssistant.Core.csproj.CoreCompileInputs.cache
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\VoiceAssistant.Core.dll
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\ref\VoiceAssistant.Core.dll
+C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\VoiceAssistant.Core.pdb

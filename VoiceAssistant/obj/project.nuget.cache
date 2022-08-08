@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "oVUVto9oon3Vc/KNhhzPZ4X2lUiS1v59Vy0acf4BB+fh/3Dxf8vMS2t9Oml5kBMKkWWY9qKIUAMytM+KAg70dQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\иван\\Desktop\\Voice Assistant\\Voice Assistant\\VoiceAssistant\\VoiceAssistant.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\иван\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\иван\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\иван\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\иван\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\иван\\.nuget\\packages\\system.speech\\6.0.0\\system.speech.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoiceAssistant", "VoiceAssistant.csproj", "{03342D80-FDD7-4327-B18F-BEC725B21C9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceAssistant.Core", "..\VoiceAssistant.Core\VoiceAssistant.Core.csproj", "{37626DC4-4AE8-4E8A-A0EA-0D8701B4C671}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03342D80-FDD7-4327-B18F-BEC725B21C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03342D80-FDD7-4327-B18F-BEC725B21C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03342D80-FDD7-4327-B18F-BEC725B21C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03342D80-FDD7-4327-B18F-BEC725B21C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37626DC4-4AE8-4E8A-A0EA-0D8701B4C671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37626DC4-4AE8-4E8A-A0EA-0D8701B4C671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37626DC4-4AE8-4E8A-A0EA-0D8701B4C671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37626DC4-4AE8-4E8A-A0EA-0D8701B4C671}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF917D74-B7EF-49D0-AF5D-5905D7AD81A1}
+	EndGlobalSection
+EndGlobal
