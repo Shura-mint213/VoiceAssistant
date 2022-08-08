@@ -14,7 +14,7 @@ namespace VoiceAssistant.Core
                 {
                     Console.WriteLine("Say");
                     Choices choices = new Choices();
-                    choices.Add(new string[] { "red", "sport", "blue" });
+                    choices.Add(new string[] { "red", "sport", "blue", "what time is it" });
 
                     GrammarBuilder grammar = new GrammarBuilder();
                     grammar.Culture = new System.Globalization.CultureInfo("en-US");

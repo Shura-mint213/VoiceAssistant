@@ -38,3 +38,24 @@ C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceA
 C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\ref\VoiceAssistant.dll
 C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.pdb
 C:\Users\иван\Desktop\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.genruntimeconfig.cache
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\VoiceAssistant.exe
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\VoiceAssistant.deps.json
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\VoiceAssistant.runtimeconfig.json
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\VoiceAssistant.runtimeconfig.dev.json
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\VoiceAssistant.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\ref\VoiceAssistant.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\VoiceAssistant.pdb
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\System.Speech.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Speech.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\VoiceAssistant.Core.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\VoiceAssistant.Core.pdb
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.csproj.AssemblyReference.cache
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.AssemblyInfoInputs.cache
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.AssemblyInfo.cs
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.csproj.CoreCompileInputs.cache
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.csproj.CopyComplete
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\ref\VoiceAssistant.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.pdb
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.genruntimeconfig.cache

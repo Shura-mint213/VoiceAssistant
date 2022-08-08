@@ -6,11 +6,17 @@ namespace VoiceAssistant.Core
 {
     public class Speak
     {
-        const string _unknownWords = "I am sorry, I do not understand you";
+        const string _unknownWords = "I do not understand you";
         public void EvaSpeak(string lineToSay)
         {
             try
             {
+                if (lineToSay == "what time is it")
+                {
+                    DateTime date = DateTime.Now;
+                    lineToSay = $"the time is { date.Hour } hours and { date.Minute } minutes" ;
+                    //Console.WriteLine($"time { time }");
+                }
                 Console.WriteLine("Speak " + lineToSay);
                 SpeechSynthesizer synth = new SpeechSynthesizer();
 
