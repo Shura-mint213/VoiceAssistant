@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Speech.Synthesis;
 
 
@@ -19,7 +20,10 @@ namespace VoiceAssistant.Core
                 }
                 Console.WriteLine("Speak " + lineToSay);
                 SpeechSynthesizer synth = new SpeechSynthesizer();
-
+                //PromptBuilder speakText = new PromptBuilder();//VoiceGender.Female, VoiceAge.Teen, 20);
+                //speakText.StartVoice(VoiceGender.Female, VoiceAge.Teen);
+                
+                //speakText.AppendText(lineToSay);
                 // Configure the audio output.   
                 synth.SetOutputToDefaultAudioDevice();
                 synth.SpeakAsync(lineToSay);

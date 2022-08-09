@@ -8,10 +8,11 @@ namespace VoiceAssistant.Core
 {
     public class Time
     {
+        // TODO
         public TimeModel GetConvertTimeToString(DateTime date)
         {
             TimeModel timeModel = new TimeModel();
-            date
+            //date
             return timeModel;
         }
     }

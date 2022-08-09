@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VoiceAssistant.Core
 {
-    internal class TimeModel
+    public class TimeModel
     {
         /// <summary>
         /// Часы

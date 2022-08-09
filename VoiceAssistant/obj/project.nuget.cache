@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oVUVto9oon3Vc/KNhhzPZ4X2lUiS1v59Vy0acf4BB+fh/3Dxf8vMS2t9Oml5kBMKkWWY9qKIUAMytM+KAg70dQ==",
+  "dgSpecHash": "YxI23l9Jtref4zDQubds/JLI5SHeoULzxOzJ6xq5EqcioXakPlq9bJoWrsUEVm87EZQvABMO/gDheFhRaHN8nA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\иван\\Desktop\\Voice Assistant\\Voice Assistant\\VoiceAssistant\\VoiceAssistant.csproj",
+  "projectFilePath": "C:\\Users\\иван\\Desktop\\Voice Assistant\\Voice Assistant\\VoiceAssistant\\VoiceAssistant.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\иван\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\иван\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

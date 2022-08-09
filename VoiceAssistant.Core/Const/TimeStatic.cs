@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace VoiceAssistant.Core.Struct
 {
+    /// <summary>
+    /// TODO
+    /// </summary>
     public class TimeStatic
     {
         static string one = "one";

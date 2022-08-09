@@ -316,9 +316,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\иван\\Desktop\\Voice Assistant\\Voice Assistant\\VoiceAssistant\\VoiceAssistant.csproj",
-      "projectName": "VoiceAssistant",
-      "projectPath": "C:\\Users\\иван\\Desktop\\Voice Assistant\\Voice Assistant\\VoiceAssistant\\VoiceAssistant.csproj",
+      "projectUniqueName": "C:\\Users\\иван\\Desktop\\Voice Assistant\\Voice Assistant\\VoiceAssistant\\VoiceAssistant.Console.csproj",
+      "projectName": "VoiceAssistant.Console",
+      "projectPath": "C:\\Users\\иван\\Desktop\\Voice Assistant\\Voice Assistant\\VoiceAssistant\\VoiceAssistant.Console.csproj",
       "packagesPath": "C:\\Users\\иван\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\иван\\Desktop\\Voice Assistant\\Voice Assistant\\VoiceAssistant\\obj\\",
       "projectStyle": "PackageReference",
