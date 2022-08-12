@@ -8,15 +8,18 @@ namespace VoiceAssistant.Core
     public class Speak
     {
         const string _unknownWords = "I do not understand you";
+        const string _stringTimeForm = "Now is the time. {0}";
         public void EvaSpeak(string lineToSay)
         {
             try
             {
                 if (lineToSay == "what time is it")
                 {
-                    DateTime date = DateTime.Now;
-                    lineToSay = $"the time is { date.Hour } hours and { date.Minute } minutes" ;
-                    //Console.WriteLine($"time { time }");
+                    DateTime dateTime = DateTime.Now;
+                    Converts converts = new Converts();
+                    string stringWordFromTime = converts.GetWordFromTime(dateTime);
+                    lineToSay = string.Format(_stringTimeForm, stringWordFromTime);
+                    
                 }
                 Console.WriteLine("Speak " + lineToSay);
                 SpeechSynthesizer synth = new SpeechSynthesizer();

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VoiceAssistant.Core.Struct
+namespace VoiceAssistant.Core.Constants
 {
     /// <summary>
     /// TODO
