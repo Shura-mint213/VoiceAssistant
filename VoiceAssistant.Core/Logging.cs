@@ -12,22 +12,60 @@ namespace VoiceAssistant.Core
         /// <summary>
         /// Файл с логами
         /// </summary>
-        const string _pathLogFile = @"Log";
+        const string _pathLogFile = @"Log/";
+        /// <summary>
+        /// Начало именования файла
+        /// </summary>
+        const string _nameFile = "log_";
+        /// <summary>
+        /// Тип файла txt
+        /// </summary>
+        const string _fileType = ".txt";
         /// <summary>
         /// Проверка сущесвования файла
         /// </summary>
-        internal bool CheckFile()
+        /// <returns>
+        /// true если каталог есть, иначе false 
+        /// </returns>
+        static private bool CheckDirectory()
         {
-            return File.Exists(_pathLogFile)? true : false ;
+            return File.Exists(_pathLogFile);
         }
         /// <summary>
         /// Создания файла
         /// </summary>
-        internal void CreateFile()
+        static private void CreateDirectory()
         {
+
             DirectoryInfo directoryInfo = new DirectoryInfo(_pathLogFile);
             directoryInfo.Create();
         }
-
+        /// <summary>
+        /// Создания файла и запись в него ошибки
+        /// </summary>
+        /// <param name="textError">Ошибка</param>
+        static private void CreateFile(string textError)
+        {
+            var dateTime = DateTime.Now;
+            string path = _pathLogFile + _nameFile + dateTime.Year + dateTime.Month + dateTime.Day + dateTime.Hour + dateTime.Minute + dateTime.Second + dateTime.Millisecond + _fileType;
+            using (FileStream fs = File.Create(path))
+            {
+                byte[] info = new UTF8Encoding(true).GetBytes(textError);
+                // Add some information to the file.
+                fs.Write(info, 0, info.Length);
+            }
+        }
+        /// <summary>
+        /// Метод записывает ошибки в текстовый файл
+        /// </summary>
+        /// <param name="textError">Текст ошибки</param>
+        static internal void ErrorRecording(string textError)
+        {
+            if (!CheckDirectory())
+            {
+                CreateDirectory();
+            }
+            CreateFile(textError);
+        }
     }
 }

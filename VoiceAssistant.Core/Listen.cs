@@ -43,7 +43,7 @@ namespace VoiceAssistant.Core
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                Logging.ErrorRecording(ex.ToString());
             }
             
         }
