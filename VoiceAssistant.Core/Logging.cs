@@ -36,7 +36,6 @@ namespace VoiceAssistant.Core
         /// </summary>
         static private void CreateDirectory()
         {
-
             DirectoryInfo directoryInfo = new DirectoryInfo(_pathLogFile);
             directoryInfo.Create();
         }

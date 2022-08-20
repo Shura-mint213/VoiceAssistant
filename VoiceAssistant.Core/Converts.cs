@@ -34,7 +34,7 @@ namespace VoiceAssistant.Core
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                Logging.ErrorRecording(ex.ToString());
             }
             return result;
         }
@@ -48,7 +48,7 @@ namespace VoiceAssistant.Core
                 result = string.Format(_stringSayTime, hour, minutes);
             } catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                Logging.ErrorRecording(ex.ToString());
             }
             return result;
         }

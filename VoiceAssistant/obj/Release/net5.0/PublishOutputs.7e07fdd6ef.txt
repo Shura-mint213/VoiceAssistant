@@ -1,0 +1,9 @@
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Release\net5.0\publish\VoiceAssistant.Console.exe
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Release\net5.0\publish\VoiceAssistant.Console.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Release\net5.0\publish\VoiceAssistant.Console.deps.json
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Release\net5.0\publish\VoiceAssistant.Console.runtimeconfig.json
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Release\net5.0\publish\VoiceAssistant.Console.pdb
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Release\net5.0\publish\System.Speech.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Release\net5.0\publish\runtimes\win\lib\netcoreapp3.1\System.Speech.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Release\net5.0\publish\VoiceAssistant.Core.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Release\net5.0\publish\VoiceAssistant.Core.pdb

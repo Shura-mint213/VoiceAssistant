@@ -51,11 +51,18 @@ namespace VoiceAssistant.Core
         // Handle the SpeechRecognized event.  
         static void recognizer_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
         {
-            if (e.Result.Confidence > 0.7)
+            try
             {
-                Console.WriteLine("Recognized text: " + e.Result.Text);
-                Speak speak = new Speak();
-                speak.EvaSpeak(e.Result.Text);
+                if (e.Result.Confidence > 0.7)
+                {
+                    Console.WriteLine("Recognized text: " + e.Result.Text);
+                    Speak speak = new Speak();
+                    speak.EvaSpeak(e.Result.Text);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logging.ErrorRecording(ex.ToString());
             }
         }
         static void ActionUnknownWords(object sender, SpeechRecognitionRejectedEventArgs e)
