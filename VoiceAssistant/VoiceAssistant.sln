@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoiceAssistant.Core", "..\V
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceAssistant.UnitTest", "..\VoiceAssistant.UnitTest\VoiceAssistant.UnitTest.csproj", "{9312F298-EA82-4354-92CC-B3962DABE6C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceAssistant.Data", "..\VoiceAssistant.Data\VoiceAssistant.Data.csproj", "{10640CFE-9AC3-4EED-9CC1-4EB54C2B69F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9312F298-EA82-4354-92CC-B3962DABE6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9312F298-EA82-4354-92CC-B3962DABE6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9312F298-EA82-4354-92CC-B3962DABE6C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10640CFE-9AC3-4EED-9CC1-4EB54C2B69F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10640CFE-9AC3-4EED-9CC1-4EB54C2B69F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10640CFE-9AC3-4EED-9CC1-4EB54C2B69F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10640CFE-9AC3-4EED-9CC1-4EB54C2B69F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

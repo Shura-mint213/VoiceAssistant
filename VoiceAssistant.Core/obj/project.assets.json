@@ -88,6 +88,16 @@
             "rid": "win"
           }
         }
+      },
+      "VoiceAssistant.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/VoiceAssistant.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VoiceAssistant.Data.dll": {}
+        }
       }
     }
   },
@@ -283,11 +293,17 @@
         "system.speech.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "VoiceAssistant.Data/1.0.0": {
+      "type": "project",
+      "path": "../VoiceAssistant.Data/VoiceAssistant.Data.csproj",
+      "msbuildProject": "../VoiceAssistant.Data/VoiceAssistant.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "System.Speech >= 6.0.0"
+      "System.Speech >= 6.0.0",
+      "VoiceAssistant.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -324,7 +340,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\иван\\Desktop\\Voice Assistant\\Voice Assistant\\VoiceAssistant.Data\\VoiceAssistant.Data.csproj": {
+              "projectPath": "C:\\Users\\иван\\Desktop\\Voice Assistant\\Voice Assistant\\VoiceAssistant.Data\\VoiceAssistant.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
