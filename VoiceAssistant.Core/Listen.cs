@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Speech.Recognition;
+using VoiceAssistant.Data.File;
 
 namespace VoiceAssistant.Core
 {
@@ -43,7 +44,7 @@ namespace VoiceAssistant.Core
             }
             catch (Exception ex)
             {
-                Logging.ErrorRecording(ex.ToString());
+                LoggingFile.WriteErrorToFile(ex.ToString());
             }
             
         }
@@ -62,7 +63,7 @@ namespace VoiceAssistant.Core
             }
             catch (Exception ex)
             {
-                Logging.ErrorRecording(ex.ToString());
+                LoggingFile.WriteErrorToFile(ex.ToString());
             }
         }
         static void ActionUnknownWords(object sender, SpeechRecognitionRejectedEventArgs e)

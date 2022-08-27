@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Speech.Synthesis;
-
+using VoiceAssistant.Data.File;
 
 namespace VoiceAssistant.Core
 {
@@ -33,7 +33,7 @@ namespace VoiceAssistant.Core
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.ToString());
+                LoggingFile.WriteErrorToFile(ex.ToString());
             }
         }
         public void EvaSaysDoesNotKnowWord()

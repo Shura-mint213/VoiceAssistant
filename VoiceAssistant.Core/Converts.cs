@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using VoiceAssistant.Core.Enums;
+using VoiceAssistant.Data.File;
 
 namespace VoiceAssistant.Core
 {
@@ -34,7 +35,7 @@ namespace VoiceAssistant.Core
             }
             catch (Exception ex)
             {
-                Logging.ErrorRecording(ex.ToString());
+                LoggingFile.WriteErrorToFile(ex.ToString());
             }
             return result;
         }
@@ -48,7 +49,7 @@ namespace VoiceAssistant.Core
                 result = string.Format(_stringSayTime, hour, minutes);
             } catch (Exception ex)
             {
-                Logging.ErrorRecording(ex.ToString());
+                LoggingFile.WriteErrorToFile(ex.ToString());
             }
             return result;
         }

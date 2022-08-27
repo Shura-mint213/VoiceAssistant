@@ -22,3 +22,6 @@ C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Core\ob
 C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\VoiceAssistant.Core.dll
 C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\ref\VoiceAssistant.Core.dll
 C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\VoiceAssistant.Core.pdb
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Core\bin\Debug\net5.0\VoiceAssistant.Data.dll
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Core\bin\Debug\net5.0\VoiceAssistant.Data.pdb
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Core\obj\Debug\net5.0\VoiceAssistant.Core.csproj.CopyComplete

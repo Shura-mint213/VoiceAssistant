@@ -9,10 +9,4 @@
     <ProjectReference Include="..\VoiceAssistant.Core\VoiceAssistant.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="Microsoft.Speech">
-      <HintPath>NugetPackages\MicrosoftSpeechPlatformSDK\Assembly\Microsoft.Speech.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

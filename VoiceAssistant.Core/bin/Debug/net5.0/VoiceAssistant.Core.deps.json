@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "VoiceAssistant.Core/1.0.0": {
         "dependencies": {
-          "System.Speech": "6.0.0"
+          "System.Speech": "6.0.0",
+          "VoiceAssistant.Data": "1.0.0"
         },
         "runtime": {
           "VoiceAssistant.Core.dll": {}
@@ -45,6 +46,11 @@
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "6.0.21.52210"
           }
+        }
+      },
+      "VoiceAssistant.Data/1.0.0": {
+        "runtime": {
+          "VoiceAssistant.Data.dll": {}
         }
       }
     }
@@ -89,6 +95,11 @@
       "sha512": "sha512-GQovERMrNP0Vbtgk8LzH4PlFS6lqHgsL9WkUmv8Kkxa0m0vNakitytpHZlfJ9WR7n9WKLXh68nn2kyL9mflnLg==",
       "path": "system.speech/6.0.0",
       "hashPath": "system.speech.6.0.0.nupkg.sha512"
+    },
+    "VoiceAssistant.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

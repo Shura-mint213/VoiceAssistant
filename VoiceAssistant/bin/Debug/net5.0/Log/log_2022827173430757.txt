@@ -1,0 +1,2 @@
+System.Exception: test loging
+   at VoiceAssistant.Core.Listen.EvaListen() in C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Core\Listen.cs:line 13

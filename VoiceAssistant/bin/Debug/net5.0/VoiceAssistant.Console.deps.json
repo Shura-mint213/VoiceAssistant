@@ -49,10 +49,16 @@
       },
       "VoiceAssistant.Core/1.0.0": {
         "dependencies": {
-          "System.Speech": "6.0.0"
+          "System.Speech": "6.0.0",
+          "VoiceAssistant.Data": "1.0.0"
         },
         "runtime": {
           "VoiceAssistant.Core.dll": {}
+        }
+      },
+      "VoiceAssistant.Data/1.0.0": {
+        "runtime": {
+          "VoiceAssistant.Data.dll": {}
         }
       }
     }
@@ -99,6 +105,11 @@
       "hashPath": "system.speech.6.0.0.nupkg.sha512"
     },
     "VoiceAssistant.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VoiceAssistant.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
