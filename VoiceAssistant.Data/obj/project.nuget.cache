@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4xhvnfRfprptTMnQju0qeeuHJxbO9yevm9L7vbnnBtAu7IEqOGSYM7jlv1st6Ng/hqF/hTupwCI8WpfUl9s5iQ==",
+  "dgSpecHash": "XiRqM2ABu+13TfDVtYmebrMuZzr/G7N3V/zX1p9Zjx2JLzPLEHQ2D8ond38guVm30c/m+7CU+TsleZgTFfSFrg==",
   "success": true,
   "projectFilePath": "C:\\Users\\иван\\Desktop\\Voice Assistant\\Voice Assistant\\VoiceAssistant.Data\\VoiceAssistant.Data.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\иван\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

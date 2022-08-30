@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Speech.Recognition;
 using VoiceAssistant.Data.File;
-
 namespace VoiceAssistant.Core
 {
     public class Listen
@@ -10,6 +9,11 @@ namespace VoiceAssistant.Core
         {
             try 
             {
+
+                var personData = new VoiceAssistant.Data.Models.PersonData();
+                personData.Name = "ewgegw";
+                DataFile.SaveData(personData);
+                Console.Write(DataFile.GetData().Name);
                 using ( SpeechRecognitionEngine recognizer =
                     new SpeechRecognitionEngine(new System.Globalization.CultureInfo("en-US")))
                 {

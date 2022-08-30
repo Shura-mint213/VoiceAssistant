@@ -1,0 +1,5 @@
+System.AggregateException: Ошибка в логировании
+   at VoiceAssistant.Data.File.File.CreateFile(String pathFile, String nameFile, String fileText) in C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Data\File\File.cs:line 70
+   at VoiceAssistant.Data.File.DataFile.SaveData(String data) in C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Data\File\DataFile.cs:line 35
+   at VoiceAssistant.Data.File.DataFile.GetData() in C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Data\File\DataFile.cs:line 59
+   at VoiceAssistant.Core.Listen.EvaListen() in C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant.Core\Listen.cs:line 16

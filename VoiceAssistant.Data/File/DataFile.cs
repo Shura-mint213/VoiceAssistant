@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.IO;
+using VoiceAssistant.Data.Models;
 
 namespace VoiceAssistant.Data.File
 {
@@ -32,24 +34,33 @@ namespace VoiceAssistant.Data.File
             {
                 File.CreateFile(_pathFile, _nameFile, data);
             }
-            else if (string.IsNullOrWhiteSpace(data))
+            else if (!string.IsNullOrWhiteSpace(data))
             {
                 string fullPathToFile = _pathFile + _nameFile;
-                System.IO.File.WriteAllText(fullPathToFile, data);
+                File.WriteTextToFile(fullPathToFile, data);
             }
+        }
+        /// <summary>
+        /// Запись в файл данных по переданной модели данных
+        /// </summary>
+        /// <param name="personData">Модель данных, которые нужно сохранить</param>
+        static public void SaveData(PersonData personData)
+        {
+            string json = JsonConvert.SerializeObject(personData);
+            SaveData(json);
         }
         /// <summary>
         /// Чтение данных из файла
         /// </summary>
-        /// <typeparam name="T"></typeparam>
         /// <returns></returns>
-        static public T GetData<T>()
+        static public PersonData GetData()
         {
+            // Проверить существование файла, если его нет создаем
             SaveData();
             string fileText = string.Empty;
             string fullPathFile = _pathFile + _nameFile + _fileType;
             fileText = System.IO.File.ReadAllText(fullPathFile);
-            //return
+            return JsonConvert.DeserializeObject<PersonData>(fileText); 
         }
     }
 }

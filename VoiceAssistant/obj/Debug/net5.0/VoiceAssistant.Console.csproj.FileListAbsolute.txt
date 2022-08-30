@@ -21,3 +21,4 @@ C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Deb
 C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\obj\Debug\net5.0\VoiceAssistant.Console.csproj.CopyComplete
 C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\VoiceAssistant.Data.dll
 C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\VoiceAssistant.Data.pdb
+C:\Users\иван\Desktop\Voice Assistant\Voice Assistant\VoiceAssistant\bin\Debug\net5.0\Newtonsoft.Json.dll

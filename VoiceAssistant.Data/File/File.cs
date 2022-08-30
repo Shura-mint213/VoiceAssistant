@@ -11,6 +11,12 @@ namespace VoiceAssistant.Data.File
         /// </summary>
         const string _fileType = ".txt";
         /// <summary>
+        /// Запись данных в файл
+        /// </summary>
+        /// <param name="fullPathToFile">Полный путь к файлу</param>
+        /// <param name="data">Данные для запись</param>
+        internal static void WriteTextToFile(string fullPathToFile, string data) => System.IO.File.WriteAllText(fullPathToFile, data);
+        /// <summary>
         /// Проверка существовании директории
         /// </summary>
         /// <returns>
